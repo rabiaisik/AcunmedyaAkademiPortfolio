@@ -1,0 +1,48 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblEducation>
+
+<!-- Resume Section -->
+<section id="resume" class="resume section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Deneyimlerim ve Özgeçmişim</h2>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+        <div class="row">
+            <!-- Left Column: Hakkımda ve Eğitim Hayatım -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title">Hakkımda</h3>
+                <div class="resume-item pb-0">
+                    <h4>Rabia Işık</h4>
+                    <p><em>
+    Merhaba! Ben Rabia , 20 yaşındayım yazılım dünyasına ilgi duyan ve bu alanda kendini geliştiren bir öğrenciyim. Teknolojiye olan merakım, yenilikçi çözümler üretme ve sürekli öğrenme tutkusu ile birleşiyor. Veri bilimi ve yapay zeka gibi alanlarda çalışmalar yaparken, hem teorik bilgimi hem de pratik yeteneklerimi geliştirmeye odaklanıyorum.
+    Kendi projelerimle bilgi birikimimi zenginleştirirken, aynı zamanda yaratıcı ve etkili dijital çözümler üretmeyi hedefliyorum.
+</em></p>
+                    <ul>
+                        <li>Türkiye, İstanbul</li>
+                        <li>543 463 932</li>
+                        <li>rabiaisik.net</li>
+                    </ul>
+                </div><!-- End Resume Item -->
+
+                <h3 class="resume-title">Eğitim Hayatım</h3>
+                @foreach (var education in Model)
+                {
+                    <div class="resume-item">
+                        <h4>@education.School &amp; @education.Area</h4>
+                        <h5>2015 - 2016</h5>
+                        <p><em>@education.ShortDescription</em></p>
+                        <p>@education.Description</p>
+                    </div><!-- End Resume Item -->
+                }
+            </div>
+
+            <!-- Right Column: AA Experience -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="resume-title">Tecrübelerim</h3>
+                @Html.Action("PartialResumeInExperiance", "Default");
+            </div>
+        </div>
+    </div>
+</section><!-- /Resume Section -->

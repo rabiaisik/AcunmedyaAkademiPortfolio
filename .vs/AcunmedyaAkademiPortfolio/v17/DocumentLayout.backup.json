@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\views\\adminlayout\\partialnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\views\\adminlayout\\partialnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\controllers\\portfolyocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\controllers\\portfolyocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\views\\portfolyo\\portfoliolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\views\\portfolyo\\portfoliolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\views\\testimonial\\createtestimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\views\\testimonial\\createtestimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\views\\default\\partialportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\views\\default\\partialportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\acunmedyaakademiportfolio\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\views\\testimonial\\testimoniallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\views\\testimonial\\testimoniallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|c:\\users\\rabia\\source\\repos\\acunmedyaakademiportfolio\\acunmedyaakademiportfolio\\views\\testimonial\\updatetestimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61BD8CD2-606D-49E3-8541-A9726EB4F380}|AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio.csproj|solutionrelative:acunmedyaakademiportfolio\\views\\testimonial\\updatetestimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PortfolioList.cshtml",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Portfolyo\\PortfolioList.cshtml",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Views\\Portfolyo\\PortfolioList.cshtml",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Portfolyo\\PortfolioList.cshtml",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Views\\Portfolyo\\PortfolioList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T21:48:53.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PortfolyoController.cs",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Controllers\\PortfolyoController.cs",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Controllers\\PortfolyoController.cs",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Controllers\\PortfolyoController.cs",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Controllers\\PortfolyoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:48:50.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\AdminLayout\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Views\\AdminLayout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\AdminLayout\\Index.cshtml",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Views\\AdminLayout\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T21:44:42.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateTestimonial.cshtml",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Testimonial\\CreateTestimonial.cshtml",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Views\\Testimonial\\CreateTestimonial.cshtml",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Testimonial\\CreateTestimonial.cshtml",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Views\\Testimonial\\CreateTestimonial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T21:34:40.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Controllers\\AdminLayoutController.cs",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Controllers\\AdminLayoutController.cs",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Controllers\\AdminLayoutController.cs",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Controllers\\AdminLayoutController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:44:45.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PartialNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\AdminLayout\\PartialNavbar.cshtml",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Views\\AdminLayout\\PartialNavbar.cshtml",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\AdminLayout\\PartialNavbar.cshtml",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Views\\AdminLayout\\PartialNavbar.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T21:44:49.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PartialPortfolio.cshtml",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Default\\PartialPortfolio.cshtml",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Views\\Default\\PartialPortfolio.cshtml",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Default\\PartialPortfolio.cshtml",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Views\\Default\\PartialPortfolio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T21:48:47.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateTestimonial.cshtml",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Testimonial\\UpdateTestimonial.cshtml",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Views\\Testimonial\\UpdateTestimonial.cshtml",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Testimonial\\UpdateTestimonial.cshtml",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Views\\Testimonial\\UpdateTestimonial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T21:29:18.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestimonialList.cshtml",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Testimonial\\TestimonialList.cshtml",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Views\\Testimonial\\TestimonialList.cshtml",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Views\\Testimonial\\TestimonialList.cshtml",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Views\\Testimonial\\TestimonialList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T21:24:11.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Controllers\\TestimonialController.cs",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Controllers\\TestimonialController.cs",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Controllers\\TestimonialController.cs",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Controllers\\TestimonialController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAD4vzYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:20:19.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "AcunmedyaAkademiPortfolio\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\rabia\\source\\repos\\AcunmedyaAkademiPortfolio\\AcunmedyaAkademiPortfolio\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "AcunmedyaAkademiPortfolio\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-01-10T11:05:19.322Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

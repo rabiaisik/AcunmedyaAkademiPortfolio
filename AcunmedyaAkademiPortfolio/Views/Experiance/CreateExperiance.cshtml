@@ -1,0 +1,20 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblExperience>
+
+@{
+    ViewBag.Title = "CreateExperiance";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Tecrübe Ekleme Sayfası</h2>
+<form method="post">
+    <label>Tecrübe Başlığı</label>
+    <input type="text" class="form-control" name="Title" style="border:groove" />
+    <br />
+    <label>Tecrübe Tarihi</label>
+    <input type="text" class="form-control" name="Period" style="border:groove" />
+    <br />
+    <label>Tecrübe Açıklaması</label>
+    <input type="text" class="form-control" name="Description" style="border:groove" />
+    <br />
+    <button class="btn btn-info">Tecrübe Ekle</button>
+</form>

@@ -1,0 +1,31 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblStats>
+
+@{
+    ViewBag.Title = "StatsList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Stats Id</th>
+        <th>Stats Ad</th>
+        <th>Stats Açıklama</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+
+    <h3>Rabia Işık</h3>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.StatsId</td>
+            <td>@item.StatsTitle</td>
+            <td>@item.StatsDescription</td>
+            <td><a href="/Stats/DeleteStats/@item.StatsId" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Stats/UpdateStats/@item.StatsId" class="btn btn-success">Güncelle</td>
+        </tr>
+    }
+</table>
+<a href="/Stats/CreateStats/" class="btn btn-primary">Yeni Stats Girişi</a>
+

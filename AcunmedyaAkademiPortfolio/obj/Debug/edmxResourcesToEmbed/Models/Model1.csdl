@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbAcunmedyaakademi1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Table_category">
+    <Key>
+      <PropertyRef Name="Categoryıd" />
+    </Key>
+    <Property Name="Categoryıd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Table_project" Relationship="Self.FK_Table_project_Table_category" FromRole="Table_category" ToRole="Table_project" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ShortDescription" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="ImageUrl" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Table_project">
+    <Key>
+      <PropertyRef Name="projectld" />
+    </Key>
+    <Property Name="projectld" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="projectTitle" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ImageUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Categoryıd" Type="Int32" />
+    <NavigationProperty Name="Table_category" Relationship="Self.FK_Table_project_Table_category" FromRole="Table_project" ToRole="Table_category" />
+  </EntityType>
+  <EntityType Name="Table_service">
+    <Key>
+      <PropertyRef Name="servicedıd" />
+    </Key>
+    <Property Name="servicedıd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="serviceTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="IconUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Table_project_Table_category">
+    <End Role="Table_category" Type="Self.Table_category" Multiplicity="0..1" />
+    <End Role="Table_project" Type="Self.Table_project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_category">
+        <PropertyRef Name="Categoryıd" />
+      </Principal>
+      <Dependent Role="Table_project">
+        <PropertyRef Name="Categoryıd" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbAcunmedyaakademi1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Table_category" EntityType="Self.Table_category" />
+    <EntitySet Name="Table_project" EntityType="Self.Table_project" />
+    <EntitySet Name="Table_service" EntityType="Self.Table_service" />
+    <AssociationSet Name="FK_Table_project_Table_category" Association="Self.FK_Table_project_Table_category">
+      <End Role="Table_category" EntitySet="Table_category" />
+      <End Role="Table_project" EntitySet="Table_project" />
+    </AssociationSet>
+    <EntitySet Name="Table_testimoniall" EntityType="DbAcunmedyaakademi1Model.Table_testimoniall" />
+    <EntitySet Name="TblEducation" EntityType="DbAcunmedyaakademi1Model.TblEducation" />
+    <EntitySet Name="TblExperience" EntityType="DbAcunmedyaakademi1Model.TblExperience" />
+    <EntitySet Name="TblMessage" EntityType="DbAcunmedyaakademi1Model.TblMessage" />
+    <EntitySet Name="TblSkill" EntityType="DbAcunmedyaakademi1Model.TblSkill" />
+    <EntitySet Name="TblHakkimda" EntityType="DbAcunmedyaakademi1Model.TblHakkimda" />
+    <EntitySet Name="TblStats" EntityType="DbAcunmedyaakademi1Model.TblStats" />
+    <EntitySet Name="Tblİletisim" EntityType="DbAcunmedyaakademi1Model.Tblİletisim" />
+  </EntityContainer>
+  <EntityType Name="Table_testimoniall">
+    <Key>
+      <PropertyRef Name="TestimoniallId" />
+    </Key>
+    <Property Name="TestimoniallId" Type="Int32" Nullable="false" />
+    <Property Name="NameSurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ImageUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Job" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CommentDetail" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TblEducation">
+    <Key>
+      <PropertyRef Name="Educationld" />
+    </Key>
+    <Property Name="Educationld" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ShortDescription" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="School" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Area" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TblExperience">
+    <Key>
+      <PropertyRef Name="Experienceld" />
+    </Key>
+    <Property Name="Experienceld" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Period" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TblMessage">
+    <Key>
+      <PropertyRef Name="Messageld" />
+    </Key>
+    <Property Name="Messageld" Type="Int32" Nullable="false" />
+    <Property Name="SenderName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SenderEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Detail" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="TblSkill">
+    <Key>
+      <PropertyRef Name="Skilld" />
+    </Key>
+    <Property Name="Skilld" Type="Int32" Nullable="false" />
+    <Property Name="SkillTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SkillValue" Type="Byte" />
+  </EntityType>
+  <EntityType Name="TblHakkimda">
+    <Key>
+      <PropertyRef Name="aboutid" />
+    </Key>
+    <Property Name="dogumtarihi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="aboutid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="yas" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="website" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="telefon" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="sehir" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="freelance" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="hakkimdabaslik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="hakkimdaaçiklama" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="kisaaciklama" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="egitim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TblStats">
+    <Key>
+      <PropertyRef Name="StatsId" />
+    </Key>
+    <Property Name="StatsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatsTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StatsDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tblİletisim">
+    <Key>
+      <PropertyRef Name="iletisimId" />
+    </Key>
+    <Property Name="iletisimId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="adres" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="telefon" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

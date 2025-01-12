@@ -1,0 +1,51 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblSkill>
+
+<!-- Skills Section -->
+<section id="skills" class="skills section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Yeteneklerim</h2>
+        <p>Programlama Dilleri & Kullandığım Teknolojiler</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        @if (Model != null && Model.Any())
+        {
+            int totalRecords = Model.Count;
+            int halfCount = totalRecords / 2;
+            int index = 0;
+
+            <div class="row">
+                <!-- Sol Kolon -->
+                <div class="col-lg-6">
+                    @foreach (var skill in Model.Take(halfCount))
+                    {
+                        <div class="progress">
+                            <span class="skill"><span>@skill.SkillTitle</span> <i class="val">@skill.SkillValue%</i></span>
+                            <div class="progress-bar-wrap">
+
+                                <div class="progress-bar" style="width:@skill.SkillValue%" role="progressbar" aria-valuenow="@skill.SkillValue" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+                    }
+                </div>
+
+                <!-- Sağ Kolon -->
+                <div class="col-lg-6">
+                    @foreach (var skill in Model.Skip(halfCount))
+                    {
+                        <div class="progress">
+                            <span class="skill"><span>@skill.SkillTitle</span> <i class="val">@skill.SkillValue%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" style="width:@skill.SkillValue%" role="progressbar" aria-valuenow="@skill.SkillValue" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+                    }
+                </div>
+            </div>
+        }
+    </div>
+
+</section><!-- /Skills Section -->

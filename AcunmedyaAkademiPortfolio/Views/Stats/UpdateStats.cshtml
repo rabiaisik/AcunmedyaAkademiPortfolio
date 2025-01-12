@@ -1,0 +1,20 @@
+﻿@model AcunmedyaAkademiPortfolio.Models.TblStats
+
+@{
+    ViewBag.Title = "UpdateStats";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Stats Güncelleme Sayfası</h2>
+<<form method="post">
+    <label>Stats İD</label>
+    @Html.TextBoxFor(x => x.StatsId, new { @class = "form-control" })
+    <br />
+    <label>Stats Adı</label>
+    @Html.TextBoxFor(x => x.StatsTitle, new { @class = "form-control" })
+    <br />
+    <label>Stats Değeri(Sadece Sayı)</label>
+    @Html.TextBoxFor(x => x.StatsDescription, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Stats Güncelle</button>
+</form>

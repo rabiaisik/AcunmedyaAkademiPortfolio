@@ -1,0 +1,22 @@
+﻿@model AcunmedyaAkademiPortfolio.Models.Table_category
+@{
+    ViewBag.Title = "UpdatePortfolio";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Portfolyo Güncelleme Sayfası</h2>
+<<form method="post">
+    <label>Portfolyo İD</label>
+    @Html.TextBoxFor(x => x.Categoryıd, new { @class = "form-control" })
+    <br />
+    <label>Portfolyo Adı</label>
+    @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+    <br />
+    <label>Portfolyo Açıklaması</label>
+    @Html.TextBoxFor(x => x.ShortDescription, new { @class = "form-control" })
+    <br />
+    <label>Portfolyo ImageURL</label>
+    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Portfolyo Güncelle</button>
+</form>

@@ -1,0 +1,42 @@
+﻿@model AcunmedyaAkademiPortfolio.Models.TblHakkimda
+@{
+    ViewBag.Title = "EditAbout";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<h2>About Güncelleme Sayfası</h2>
+<<form method="post">
+    <label>Hakkında İD</label>
+    @Html.TextBoxFor(x => x.aboutid, new { @class = "form-control" })
+    <br />
+    <label>Hakkımda Başlık</label>
+    @Html.TextBoxFor(x => x.hakkimdabaslik, new { @class = "form-control" })
+    <br />
+    <label>Hakkımda Açıklama</label>
+    @Html.TextBoxFor(x => x.hakkimdaaçiklama, new { @class = "form-control" })
+    <br />
+    <label>Doğum Tarihi</label>
+    @Html.TextBoxFor(x => x.dogumtarihi, new { @class = "form-control" })
+    <br />
+    <label>Yas</label>
+    @Html.TextBoxFor(x => x.yas, new { @class = "form-control" })
+    <br />
+    <label>Website</label>
+    @Html.TextBoxFor(x => x.website, new { @class = "form-control" })
+    <br />
+    <label>Telefon</label>
+    @Html.TextBoxFor(x => x.telefon, new { @class = "form-control" })
+    <br />
+    <label>Şehir</label>
+    @Html.TextBoxFor(x => x.sehir, new { @class = "form-control" })
+    <br />
+    <label>Mail</label>
+    @Html.TextBoxFor(x => x.email, new { @class = "form-control" })
+    <br />
+    <label>Eğitim</label>
+    @Html.TextBoxFor(x => x.egitim, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Hakkında Güncelle</button>
+</form>
+

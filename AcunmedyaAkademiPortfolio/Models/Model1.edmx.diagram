@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5426eb5eaba3469a9ff5f88c3484f336" Name="Diagram1" ZoomLevel="56">
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.sysdiagrams" Width="1.5" PointX="1" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.Table_category" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.Table_project" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.Table_service" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="DbAcunmedyaakademi1Model.FK_Table_project_Table_category" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.Table_testimoniall" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.TblEducation" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.TblExperience" Width="1.5" PointX="10.375" PointY="4.375" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.TblMessage" Width="1.5" PointX="3" PointY="4" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.TblSkill" Width="1.5" PointX="7.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.TblHakkimda" Width="1.5" PointX="15" PointY="2.25" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.TblStats" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="DbAcunmedyaakademi1Model.Tblİletisim" Width="1.5" PointX="0.75" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

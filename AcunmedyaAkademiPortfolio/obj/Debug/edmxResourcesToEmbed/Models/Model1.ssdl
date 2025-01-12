@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbAcunmedyaakademi1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Table_category">
+    <Key>
+      <PropertyRef Name="Categoryıd" />
+    </Key>
+    <Property Name="Categoryıd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShortDescription" Type="nvarchar" MaxLength="150" />
+    <Property Name="ImageUrl" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Table_project">
+    <Key>
+      <PropertyRef Name="projectld" />
+    </Key>
+    <Property Name="projectld" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="projectTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="ImageUrl" Type="nvarchar(max)" />
+    <Property Name="Categoryıd" Type="int" />
+  </EntityType>
+  <EntityType Name="Table_service">
+    <Key>
+      <PropertyRef Name="servicedıd" />
+    </Key>
+    <Property Name="servicedıd" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="serviceTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="IconUrl" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Table_testimoniall">
+    <Key>
+      <PropertyRef Name="TestimoniallId" />
+    </Key>
+    <Property Name="TestimoniallId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameSurname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="CommentDetail" Type="nvarchar" MaxLength="250" />
+    <Property Name="ImageUrl" Type="nvarchar(max)" />
+    <Property Name="Job" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TblEducation">
+    <Key>
+      <PropertyRef Name="Educationld" />
+    </Key>
+    <Property Name="Educationld" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="School" Type="nvarchar" MaxLength="100" />
+    <Property Name="Area" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="ShortDescription" Type="nvarchar" MaxLength="300" />
+    <Property Name="Description" Type="nvarchar" MaxLength="500" />
+    <Property Name="Date" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="TblExperience">
+    <Key>
+      <PropertyRef Name="Experienceld" />
+    </Key>
+    <Property Name="Experienceld" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" />
+    <Property Name="Period" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="Location" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TblHakkimda">
+    <Key>
+      <PropertyRef Name="aboutid" />
+    </Key>
+    <Property Name="dogumtarihi" Type="nvarchar" MaxLength="50" />
+    <Property Name="aboutid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="yas" Type="nvarchar" MaxLength="2" />
+    <Property Name="website" Type="nvarchar" MaxLength="20" />
+    <Property Name="telefon" Type="text" />
+    <Property Name="sehir" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="freelance" Type="nvarchar" MaxLength="50" />
+    <Property Name="hakkimdabaslik" Type="nvarchar" MaxLength="50" />
+    <Property Name="hakkimdaaçiklama" Type="nvarchar" MaxLength="500" />
+    <Property Name="kisaaciklama" Type="nvarchar" MaxLength="500" />
+    <Property Name="egitim" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tblİletisim">
+    <Key>
+      <PropertyRef Name="iletisimId" />
+    </Key>
+    <Property Name="iletisimId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="adres" Type="nvarchar" MaxLength="150" />
+    <Property Name="telefon" Type="text" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TblMessage">
+    <Key>
+      <PropertyRef Name="Messageld" />
+    </Key>
+    <Property Name="Messageld" Type="int" Nullable="false" />
+    <Property Name="SenderName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SenderEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Subject" Type="nchar" MaxLength="100" />
+    <Property Name="Detail" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="TblSkill">
+    <Key>
+      <PropertyRef Name="Skilld" />
+    </Key>
+    <Property Name="Skilld" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SkillTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="SkillValue" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="TblStats">
+    <Key>
+      <PropertyRef Name="StatsId" />
+    </Key>
+    <Property Name="StatsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatsTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="StatsDescription" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Table_project_Table_category">
+    <End Role="Table_category" Type="Self.Table_category" Multiplicity="0..1" />
+    <End Role="Table_project" Type="Self.Table_project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_category">
+        <PropertyRef Name="Categoryıd" />
+      </Principal>
+      <Dependent Role="Table_project">
+        <PropertyRef Name="Categoryıd" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbAcunmedyaakademi1ModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table_category" EntityType="Self.Table_category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table_project" EntityType="Self.Table_project" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table_service" EntityType="Self.Table_service" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table_testimoniall" EntityType="Self.Table_testimoniall" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblEducation" EntityType="Self.TblEducation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblExperience" EntityType="Self.TblExperience" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblHakkimda" EntityType="Self.TblHakkimda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tblİletisim" EntityType="Self.Tblİletisim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMessage" EntityType="Self.TblMessage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblSkill" EntityType="Self.TblSkill" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblStats" EntityType="Self.TblStats" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Table_project_Table_category" Association="Self.FK_Table_project_Table_category">
+      <End Role="Table_category" EntitySet="Table_category" />
+      <End Role="Table_project" EntitySet="Table_project" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,21 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.Table_category>
+
+@{
+    ViewBag.Title = "CratePortfolio";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Portfolyo Ekleme Sayfası</h2>
+<form method="post">
+    <label>Portfolyo Adı</label>
+    <input type="text" class="form-control" name="Title" style="border:groove" />
+    <br />
+    <label>Portfolyo Açıklamsı</label>
+    <input type="text" class="form-control" name="ShortDescription" style="border:groove" />
+    <br />
+    <label>Portfolyo ImageURL</label>
+    <input type="text" class="form-control" name="ShortDescription" style="border:groove" />
+    <br />
+    <button class="btn btn-info">Portfolyo Ekle</button>
+</form>
+

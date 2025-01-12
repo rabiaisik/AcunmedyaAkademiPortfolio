@@ -1,0 +1,29 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.Table_testimoniall>
+@{
+    ViewBag.Title = "TestimonialList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Referans Adı Soyad</th>
+        <th>Referans Mesleği</th>
+        <th>Referans Açıklaması</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+
+    <h3>Rabia Işık</h3>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.NameSurname</td>
+            <td>@item.Job</td>
+            <td>@item.CommentDetail</td>
+            <td><a href="/Testimonial/DeleteTestimonial/@item.TestimoniallId" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Testimonial/UpdateTestimonial/@item.TestimoniallId" class="btn btn-success">Güncelle</td>
+        </tr>
+    }
+</table>
+<a href="/Testimonial/CreateTestimonial/" class="btn btn-primary">Referans Girişi</a>

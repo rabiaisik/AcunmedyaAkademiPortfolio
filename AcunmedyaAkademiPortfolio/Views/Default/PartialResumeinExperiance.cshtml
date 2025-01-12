@@ -1,0 +1,13 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblExperience>
+
+@foreach (var experiance in Model)
+{
+    <div class="resume-item">
+        <h4>@experiance.Title</h4>
+        <h5>@experiance.Period</h5>
+        <p><em>@experiance.Location </em></p>
+        <ul>
+            <li>@experiance.Description</li>
+        </ul>
+    </div><!-- Edn Resume Item -->
+}
